@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Logo</a>
+      <div class="navbar-nav me-auto">
+        <a class="nav-link" href="#">Link</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Sublink</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Link</a></li>
+            <li><a class="dropdown-item" href="#">Sublink</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="d-flex align-items-center">
+        <span class="me-3">Phone Number</span>
+        <div class="dropdown me-3">
+          <button class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown">
+            <i class="bi bi-globe"></i>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Option 1</a></li>
+          </ul>
+        </div>
+        <img src="/placeholder.svg?height=40&width=40" alt="Image" class="me-3">
+        <button class="btn btn-danger">Book an Appointment</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Section 1: Tag Line -->
+  <section class="py-5 hospital-tagline">
+    <div class="container">
+      <div class="text-center">
+        <h1 class="hospital-name mb-3">THE AGA KHAN </br> UNIVERSITY HOSPITAL, PAKISTAN</h1>
+        <h2 class="hospital-motto">Impact, Quality, Relevance & Access</h2>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: Cards to Important Link -->
+  <section class="py-5 bg-light ImportantLinks">
+    <div class="container">
+      <h2 class="text-center mb-4">Cards to Important Links</h2>
+      <div class="row">
+
+        <!-- Card 1 -->
+        <div class="col-md-3 mb-4">
+          <div class="card h-100">
+            <div class="card-img"></div>
+            <div class="card-body">
+              <h5 class="card-title">Patients</h5>
+              <p class="card-text">Access medical services, book appointments, and manage your health.</p>
+              <a href="#" class="btn btn-arrow"><span>›</span></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-3 mb-4">
+          <div class="card h-100">
+            <div class="card-img"></div>
+            <div class="card-body">
+              <h5 class="card-title">Doctors</h5>
+              <p class="card-text">Manage patient records, view appointments, and access resources.</p>
+              <a href="#" class="btn btn-arrow"><span>›</span></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-3 mb-4">
+          <div class="card h-100">
+            <div class="card-img"></div>
+            <div class="card-body">
+              <h5 class="card-title">Hospitals</h5>
+              <p class="card-text">Coordinate staff, manage facilities, and improve healthcare services.</p>
+              <a href="#" class="btn btn-arrow"><span>›</span></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-md-3 mb-4">
+          <div class="card h-100">
+            <div class="card-img"></div>
+            <div class="card-body">
+              <h5 class="card-title">Support</h5>
+              <p class="card-text">Get help, contact our team, and find frequently asked questions.</p>
+              <a href="#" class="btn btn-arrow"><span>›</span></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="FocusShare">
+    <div class="container">
+      <div class="content">
+        <div class="text-block">
+          <!-- Carousel Indicators -->
+          <div class="carousel-indicators">
+            <span class="bar active" data-slide="0"></span>
+            <span class="bar" data-slide="1"></span>
+            <span class="bar" data-slide="2"></span>
+          </div>
+
+          <!-- Carousel Slides -->
+          <div class="carousel-slides">
+            <div class="slide active">
+              <h2>
+                Health is a birthright, <br />
+                irrespective of cast color <br />
+                or creed
+              </h2>
+              <p class="author">– Aga Khan IV</p>
+              <p class="desc">
+                Even the poorest patients are able to access surgical care and other
+                complex care at the Aga Khan University Hospital, thanks to the
+                support provided by the Hospital's Patient Welfare Programme. One
+                in 10 inpatients at the Hospital earns less than Rs 300 ($2) per day.
+              </p>
+              <a href="#" class="donate-btn">❤️ DONATE NOW</a>
+            </div>
+
+            <div class="slide">
+              <h2>
+                Compassion in healthcare <br />
+                transforms entire communities
+              </h2>
+              <p class="author">– Aga Khan IV</p>
+              <p class="desc">
+                Through donations, countless families receive the medical care
+                they otherwise could not afford, ensuring dignity and hope for
+                generations to come.
+              </p>
+              <a href="#" class="donate-btn">❤️ DONATE NOW</a>
+            </div>
+
+            <div class="slide">
+              <h2>
+                Access to care is not a privilege, <br />
+                it is a responsibility
+              </h2>
+              <p class="author">– Aga Khan IV</p>
+              <p class="desc">
+                By supporting welfare patients, you are contributing to a system
+                where no one is denied treatment due to financial hardship.
+              </p>
+              <a href="#" class="donate-btn">❤️ DONATE NOW</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="image-block">
+          <img src="FocusShare.png" alt="Focused Share" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Section 4: International Recognition -->
+  <section class="InternationalRecognition">
+    <div class="container">
+      <h2>Internationally recognised</h2>
+
+      <div class="carousel-wrapper">
+        <!-- Left Arrow -->
+        <button class="arrow left">&#10094;</button>
+
+        <!-- Logos container -->
+        <div class="logos">
+          <div class="logo-item">
+            <img src="logo1-gray.png" data-color="logo1.png" alt="ISQua">
+          </div>
+          <div class="logo-item">
+            <img src="logo2-gray.png" data-color="logo2.png" alt="JCI">
+          </div>
+          <div class="logo-item">
+            <img src="logo3-gray.png" data-color="logo3.png" alt="CHKS">
+          </div>
+          <div class="logo-item">
+            <img src="logo4-gray.png" data-color="logo4.png" alt="Canada">
+          </div>
+          <div class="logo-item">
+            <img src="logo5-gray.png" data-color="logo5.png" alt="ACHS">
+          </div>
+          <div class="logo-item">
+            <img src="logo6-gray.png" data-color="logo6.png" alt="CBAHI">
+          </div>
+          <div class="logo-item">
+            <img src="logo1-gray.png" data-color="logo1.png" alt="ISQua">
+          </div>
+          <div class="logo-item">
+            <img src="logo2-gray.png" data-color="logo2.png" alt="JCI">
+          </div>
+          <div class="logo-item">
+            <img src="logo3-gray.png" data-color="logo3.png" alt="CHKS">
+          </div>
+          <div class="logo-item">
+            <img src="logo4-gray.png" data-color="logo4.png" alt="Canada">
+          </div>
+          <div class="logo-item">
+            <img src="logo5-gray.png" data-color="logo5.png" alt="ACHS">
+          </div>
+          <div class="logo-item">
+            <img src="logo6-gray.png" data-color="logo6.png" alt="CBAHI">
+          </div>
+          <!-- Add more logos as needed -->
+        </div>
+
+        <!-- Right Arrow -->
+        <button class="arrow right">&#10095;</button>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+  <section class="PatientStories">
+    <div class="container">
+      <div class="stories-wrapper">
+
+        <!-- Column 1: Fixed text and controls -->
+        <div class="story-intro">
+          <h2><span class="big">40</span> <span class="small">Years of</span></h2>
+          <h3>LIFE SAVING<br>STORIES</h3>
+
+          <div class="controls">
+            <button class="arrow left">&#10094;</button>
+            <button class="arrow right">&#10095;</button>
+          </div>
+        </div>
+
+        <!-- Column 2–4: Carousel -->
+        <div class="stories-carousel">
+
+
+          <div class="story-card">
+            <div class="story-bg">
+              <img src="patient1.jpg" alt="Ali Asghar">
+            </div>
+            <h4>Ali Asghar</h4>
+            <p>Connecting healthcare facilities throughout Kenya and Uganda.</p>
+            <a href="#">Read full story →</a>
+          </div>
+
+          <div class="story-card">
+            <div class="story-bg">
+              <img src="patient2.jpg" alt="Sidra Khan">
+            </div>
+            <h4>Sidra Khan</h4>
+            <p>Connecting healthcare facilities throughout Kenya and Uganda.</p>
+            <a href="#">Read full story →</a>
+          </div>
+
+          <div class="story-card">
+            <div class="story-bg">
+              <img src="patient3.jpg" alt="Javier Mora">
+            </div>
+            <h4>Javier Mora</h4>
+            <p>Connecting healthcare facilities throughout Kenya and Uganda.</p>
+            <a href="#">Read full story →</a>
+          </div>
+
+
+
+          <div class="story-card">
+            <div class="story-bg">
+              <img src="patient1.jpg" alt="Ali Asghar">
+            </div>
+            <h4>Ali Asghar</h4>
+            <p>Connecting healthcare facilities throughout Kenya and Uganda.</p>
+            <a href="#">Read full story →</a>
+          </div>
+
+          <div class="story-card">
+            <div class="story-bg">
+              <img src="patient2.jpg" alt="Sidra Khan">
+            </div>
+            <h4>Sidra Khan</h4>
+            <p>Connecting healthcare facilities throughout Kenya and Uganda.</p>
+            <a href="#">Read full story →</a>
+          </div>
+
+          <div class="story-card">
+            <div class="story-bg">
+              <img src="patient3.jpg" alt="Javier Mora">
+            </div>
+            <h4>Javier Mora</h4>
+            <p>Connecting healthcare facilities throughout Kenya and Uganda.</p>
+            <a href="#">Read full story →</a>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- Section: Research Organization -->
+  <section class="ResearchOrganization py-5 bg-light">
+    <div class="container position-relative">
+
+      <!-- Heading and Description -->
+      <div class="text-center mb-4">
+        <h2 class="section-title">Research first organisation</h2>
+        <p class="section-description">
+          For over sixty years, Aga Khan University Hospital, Nairobi (AKUH,N) has been taking care of families in East
+          Africa.
+          As a private, not-for-profit hospital, we strive to provide access to quality healthcare to all who need.
+        </p>
+      </div>
+
+      <!-- Read More Button (Top-Right) -->
+      <a href="research-listing.html" class="read-more-btn">Read More</a>
+
+      <!-- Grid -->
+      <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-md-6">
+          <a href="who-details.html" class="card-link">
+            <div class="card h-100">
+              <img src="images/who.png" class="card-img-top" alt="World Health Organization">
+            </div>
+          </a>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-6">
+          <a href="lab-research.html" class="card-link">
+            <div class="card h-100">
+              <img src="images/lab-research.png" class="card-img-top" alt="Lab Research">
+            </div>
+          </a>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-6">
+          <a href="medical-team.html" class="card-link">
+            <div class="card h-100">
+              <img src="images/medical-team.png" class="card-img-top" alt="Medical Team">
+            </div>
+          </a>
+        </div>
+
+        <!-- Card 4 (With Text, No Image Example) -->
+        <div class="col-md-6">
+          <a href="neuro-robotic-exoscope.html" class="card-link">
+            <div class="card h-100 p-3 d-flex flex-column justify-content-center text-center">
+              <img src="images/microscope.png" class="card-img-top mb-3" alt="Neuro-Robotic Exoscope">
+              <h5>AKU becomes country’s first hospital to introduce</h5>
+              <p class="highlight">‘Neuro-Robotic Exoscope’</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <!-- Section: News, Events & Blogs -->
+  <section class="NewsEventSection py-5">
+    <div class="container position-relative">
+
+      <!-- Section Header -->
+      <div class="d-flex justify-content-between align-items-start mb-3">
+        <div>
+          <h2 class="section-title">News, Events & Blogs</h2>
+          <p class="section-description">
+            For over sixty years, Aga Khan University Hospital, Nairobi (AKUH,N) has been taking care of families in
+            East Africa.
+            As a private, not-for-profit hospital, we strive to provide access to quality healthcare to all who need.
+          </p>
+        </div>
+        <a href="news-listing.html" class="show-more-btn">Show all news &gt;</a>
+      </div>
+
+      <!-- Carousel Controls (Placed Just Below Header) -->
+      <div class="d-flex justify-content-end mb-3">
+        <button class="carousel-control-btn prev me-2" type="button" data-bs-target="#newsCarousel"
+          data-bs-slide="prev">
+          &lt;
+        </button>
+        <button class="carousel-control-btn next" type="button" data-bs-target="#newsCarousel" data-bs-slide="next">
+          &gt;
+        </button>
+      </div>
+
+      <!-- Carousel -->
+      <div id="newsCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <!-- Carousel Item 1 -->
+          <div class="carousel-item active">
+            <div class="row g-4">
+              <!-- Column 1 (Large Card) -->
+              <div class="col-lg-8">
+                <div class="card large-card h-100">
+                  <img src="images/news1.jpg" class="card-img-top" alt="News Image 1">
+                  <div class="card-body">
+                    <small class="meta">August 1, 2021 | by Mehreen Rashid</small>
+                    <h4 class="card-title">The Capital of England</h4>
+                    <p class="card-text">
+                      Essential Tips for Staying Secure in London: A Comprehensive Guide to Safe City Navigation.
+                    </p>
+                    <a href="news-detail1.html" class="read-full-btn">Read full</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Column 2 (Small Card) -->
+              <div class="col-lg-4">
+                <div class="card small-card h-100">
+                  <img src="images/news2.jpg" class="card-img-top" alt="News Image 2">
+                  <div class="card-body">
+                    <small class="meta">August 2, 2021 | by John Doe</small>
+                    <h5 class="card-title">The Future of Healthcare</h5>
+                    <p class="card-text">How technology is reshaping patient care across the world.</p>
+                    <a href="news-detail2.html" class="read-full-btn">Read full</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carousel Item 2 -->
+          <div class="carousel-item">
+            <div class="row g-4">
+              <!-- Column 1 (Large Card) -->
+              <div class="col-lg-8">
+                <div class="card large-card h-100">
+                  <img src="images/news2.jpg" class="card-img-top" alt="News Image 2">
+                  <div class="card-body">
+                    <small class="meta">August 2, 2021 | by John Doe</small>
+                    <h4 class="card-title">The Future of Healthcare</h4>
+                    <p class="card-text">How technology is reshaping patient care across the world.</p>
+                    <a href="news-detail2.html" class="read-full-btn">Read full</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Column 2 (Small Card) -->
+              <div class="col-lg-4">
+                <div class="card small-card h-100">
+                  <img src="images/news1.jpg" class="card-img-top" alt="News Image 1">
+                  <div class="card-body">
+                    <small class="meta">August 1, 2021 | by Mehreen Rashid</small>
+                    <h5 class="card-title">The Capital of England</h5>
+                    <p class="card-text">
+                      Essential Tips for Staying Secure in London: A Comprehensive Guide to Safe City Navigation.
+                    </p>
+                    <a href="news-detail1.html" class="read-full-btn">Read full</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <!-- Section: Emergency Message -->
+  <section class="EmergencyMessageSection">
+    <div class="container text-center">
+      <p>
+        Medical Emergency? Our emergency department is open 24/7
+        <a href="tel:1119119" class="emergency-link">Call the local number at 1-119-119 &gt;</a>
+      </p>
+    </div>
+  </section>
+
+
+
+
+  <footer>
+    <div class="footer-container">
+
+      <!-- Row 1 -->
+      <div class="footer-row footer-top">
+        <div class="footer-logo">
+          <img src="logo.png" alt="Agha Khan Logo">
+          <h3>THE AGHA KHAN UNIVERSITY HOSPITAL, KARACHI</h3>
+        </div>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <hr>
+
+      <!-- Row 2 -->
+      <div class="footer-row footer-links">
+        <!-- Column 1 -->
+        <div class="footer-about">
+          <h4>About Agha Khan</h4>
+          <p>MediPocket is a cross-border care USA platform bridging the gap in speciality care by connecting patients
+            around the world from their homes to the top hospitals and specialists in the USA.</p>
+        </div>
+
+        <!-- Column 2 -->
+        <div class="footer-useful">
+          <h4>Useful Link</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Second Opinion</a></li>
+            <li><a href="#">Treatment in USA</a></li>
+            <li><a href="#">Clinical Trial</a></li>
+            <li><a href="#">USA Hospital</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Medical Intake Form</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3 -->
+        <div class="footer-contact">
+          <h4>Contact Info</h4>
+          <ul>
+            <li><img src="flag-kenya.png" alt="Kenya"> <strong>Nairobi, Hospital</strong> <br>102 Leopard street,
+              Nairobi</li>
+            <li><img src="flag-uganda.png" alt="Uganda"> <strong>Uganda Hospital</strong> <br>68 Circular Rd., Jhan</li>
+            <li><img src="flag-pakistan.png" alt="Pakistan"> <strong>Pakistan Office</strong> <br>Uni Road Karachi,
+              Pakistan</li>
+            <li><img src="flag-uk.png" alt="UK"> <strong>UK Office</strong> <br>Prince N12, England</li>
+          </ul>
+          <a href="mailto:help@akuh.com" class="email-btn">
+            <i class="fas fa-envelope"></i> help@akuh.com
+          </a>
+        </div>
+
+        <!-- Column 4 -->
+        <div class="footer-legal">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Privacy Policies</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">License</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Downloads</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Row 3 -->
+      <div class="footer-bottom">
+        <p>© 2025 Agha Khan Hospital USA. All Rights Reserved.</p>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
