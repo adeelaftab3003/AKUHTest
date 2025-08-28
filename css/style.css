@@ -716,3 +716,147 @@ footer .footer-bottom {
 
 
 
+.HeroSection {
+  background-color: #f9f9f9; /* light gray background */
+  position: relative;
+}
+
+.HeroSection .breadcrumb {
+  background: transparent;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.HeroSection .breadcrumb-item a {
+  color: #333;
+  text-decoration: none;
+}
+
+.HeroSection .breadcrumb-item.active {
+  color: #555;
+}
+
+.HeroSection-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.HeroSection-subheading {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 1.5rem;
+}
+
+.HeroSection-search .form-control {
+  border-radius: 6px 0 0 6px;
+  box-shadow: none;
+}
+
+.HeroSection-search .btn {
+  border-radius: 0 6px 6px 0;
+}
+
+
+
+
+
+
+.NewsListingSection .btn {
+  border-radius: 20px;
+  font-size: 0.9rem;
+  padding: 6px 16px;
+}
+
+.NewsListingSection .btn-danger {
+  background-color: #d32f2f;
+  border: none;
+}
+
+.NewsListingSection .card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+
+.NewsListingSection .card:hover {
+  transform: translateY(-5px);
+}
+
+.NewsListingSection .card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.NewsListingSection .card-text {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.NewsListingSection .pagination .page-link {
+  color: #000;
+  border-radius: 6px;
+  margin: 0 3px;
+}
+
+.NewsListingSection .pagination .active .page-link {
+  background-color: #d32f2f;
+  border-color: #d32f2f;
+  color: #fff;
+}
+
+
+
+.RelatedNews {
+  background: #fff;
+}
+
+.RelatedNews-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.RelatedNews-showall {
+  color: #d32f2f;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.RelatedNews-showall:hover {
+  text-decoration: underline;
+}
+
+.RelatedNews-subtext {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.RelatedNews .card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+
+.RelatedNews .card:hover {
+  transform: translateY(-5px);
+}
+
+.RelatedNews .card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.RelatedNews .card-text {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.RelatedNews .btn {
+  border-radius: 6px;
+  font-size: 0.9rem;
+  padding: 6px 14px;
+}

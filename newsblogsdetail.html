@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Logo</a>
+            <div class="navbar-nav me-auto">
+                <a class="nav-link" href="#">Link</a>
+                <div class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Sublink</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Link</a></li>
+                        <li><a class="dropdown-item" href="#">Sublink</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="d-flex align-items-center">
+                <span class="me-3">Phone Number</span>
+                <div class="dropdown me-3">
+                    <button class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown">
+                        <i class="bi bi-globe"></i>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Option 1</a></li>
+                    </ul>
+                </div>
+                <img src="/placeholder.svg?height=40&width=40" alt="Image" class="me-3">
+                <button class="btn btn-danger">Book an Appointment</button>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="HeroSection py-5">
+        <div class="container">
+            <!-- Breadcrumb -->
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-3">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">News & Blogs</li>
+                </ol>
+            </nav>
+
+            <!-- Heading -->
+            <h1 class="HeroSection-heading">News and Blogs</h1>
+
+            <!-- Subheading -->
+            <p class="HeroSection-subheading">
+                The Aga Khan University Hospital (AKUH) is a not-for-profit academic medical center
+            </p>
+
+            <!-- Search Bar -->
+            <form class="HeroSection-search mt-4">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search by keywords" aria-label="Search" />
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- Related News Section -->
+    <section class="RelatedNews py-5">
+        <div class="container">
+
+            <!-- Header Row -->
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h2 class="RelatedNews-title mb-0">Related News & Blogs</h2>
+                <a href="#" class="RelatedNews-showall">Show all news <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <p class="RelatedNews-subtext">You can read related news and blogs</p>
+
+            <!-- News Grid -->
+            <div class="row">
+                <!-- Item 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="News">
+                        <div class="card-body">
+                            <small class="text-muted d-block mb-2">August 1, 2025</small>
+                            <h5 class="card-title">Spotting the Subtle Signs: Unmasking Head and Neck Cancer</h5>
+                            <p class="card-text">Early symptoms are often mistaken for common ailments like a cold or
+                                sore throat.</p>
+                            <a href="#" class="btn btn-dark btn-sm">Read full <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="News">
+                        <div class="card-body">
+                            <small class="text-muted d-block mb-2">July 30, 2025</small>
+                            <h5 class="card-title">Head and Neck Cancer: Pakistan’s Hidden Crisis</h5>
+                            <p class="card-text">According to global data, nearly 16,000 Pakistanis were diagnosed with
+                                head and neck cancer in 2022.</p>
+                            <a href="#" class="btn btn-dark btn-sm">Read full <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="News">
+                        <div class="card-body">
+                            <small class="text-muted d-block mb-2">August 1, 2021</small>
+                            <h5 class="card-title">High-Risk Pregnancy: Timely Intervention Saves Lives</h5>
+                            <p class="card-text">Your health deserves the best. Consult with our experienced
+                                Endocrinologists and Family Medicine Specialists today.</p>
+                            <a href="#" class="btn btn-dark btn-sm">Read full <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- Section: Emergency Message -->
+    <section class="EmergencyMessageSection">
+        <div class="container text-center">
+            <p>
+                Medical Emergency? Our emergency department is open 24/7
+                <a href="tel:1119119" class="emergency-link">Call the local number at 1-119-119 &gt;</a>
+            </p>
+        </div>
+    </section>
+
+
+
+
+    <footer>
+        <div class="footer-container">
+
+            <!-- Row 1 -->
+            <div class="footer-row footer-top">
+                <div class="footer-logo">
+                    <img src="logo.png" alt="Agha Khan Logo">
+                    <h3>THE AGHA KHAN UNIVERSITY HOSPITAL, KARACHI</h3>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Row 2 -->
+            <div class="footer-row footer-links">
+                <!-- Column 1 -->
+                <div class="footer-about">
+                    <h4>About Agha Khan</h4>
+                    <p>MediPocket is a cross-border care USA platform bridging the gap in speciality care by connecting
+                        patients
+                        around the world from their homes to the top hospitals and specialists in the USA.</p>
+                </div>
+
+                <!-- Column 2 -->
+                <div class="footer-useful">
+                    <h4>Useful Link</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Second Opinion</a></li>
+                        <li><a href="#">Treatment in USA</a></li>
+                        <li><a href="#">Clinical Trial</a></li>
+                        <li><a href="#">USA Hospital</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Medical Intake Form</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 -->
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><img src="flag-kenya.png" alt="Kenya"> <strong>Nairobi, Hospital</strong> <br>102 Leopard
+                            street,
+                            Nairobi</li>
+                        <li><img src="flag-uganda.png" alt="Uganda"> <strong>Uganda Hospital</strong> <br>68 Circular
+                            Rd., Jhan</li>
+                        <li><img src="flag-pakistan.png" alt="Pakistan"> <strong>Pakistan Office</strong> <br>Uni Road
+                            Karachi,
+                            Pakistan</li>
+                        <li><img src="flag-uk.png" alt="UK"> <strong>UK Office</strong> <br>Prince N12, England</li>
+                    </ul>
+                    <a href="mailto:help@akuh.com" class="email-btn">
+                        <i class="fas fa-envelope"></i> help@akuh.com
+                    </a>
+                </div>
+
+                <!-- Column 4 -->
+                <div class="footer-legal">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policies</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">License</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">Downloads</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Row 3 -->
+            <div class="footer-bottom">
+                <p>© 2025 Agha Khan Hospital USA. All Rights Reserved.</p>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
